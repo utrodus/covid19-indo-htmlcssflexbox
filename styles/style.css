@@ -211,6 +211,7 @@ aside {
 }
 
 .news-img {
+    width: 100%;
     object-fit: cover;
     object-position: center;
     border-top-left-radius: 10px;
@@ -414,13 +415,12 @@ footer p {
     }
 }
 
-@media only screen and (min-width: 980px) {
-    
+@media only screen and (min-width: 980px) {    
     header .nav-container {
         justify-content: space-between;
     }
     main {
-        padding: 30px 35px;
+        padding: 10px 35px;
         overflow: auto;
     }
     #profil {
