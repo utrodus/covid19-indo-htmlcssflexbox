@@ -128,6 +128,10 @@ header h2 {
     color: #00214F;
 }
 
+ .headline{
+    padding: 0 12px;
+}
+
 .line-blue {
     max-width: 3%;
     height: 3px;
